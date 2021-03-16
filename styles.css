@@ -1,0 +1,199 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E6E3DE;
+    padding: 14px;
+}
+
+body header nav h2 {
+    color: #554938;
+}
+
+body header nav ul {
+    display: flex;
+}
+
+body header nav ul li {
+    list-style: none;
+    padding: 0 6px;
+}
+
+body header nav ul li a {
+    text-decoration: none;
+    color: #554938;
+}
+
+body header nav div button {
+    margin-right: 12px;
+    padding: 4px 8px;
+    background-color: #554938;
+}
+
+body header nav div button a {
+    color: white;
+    text-decoration: none;
+}
+
+body header .blueberries {
+    background-image: url(./Media/craving.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+body header .blueberries h1 {
+    color: white;
+    font-size: 43px;
+    text-align: center;
+    padding: 126px 0 0 0;
+}
+
+body header .blueberries label {
+    opacity: 0.5;
+    position: absolute;
+    top: 238px;
+    left: 549px;
+}
+
+body header .blueberries label i {
+    position: absolute;
+    top: 9px;
+    left: 7px;
+}
+
+body header .blueberries label input {
+    padding: 7px 60px;
+}
+
+body {
+    background-image: url(./Media/background.jpg);
+    background-size: cover;
+}
+
+body section .container {
+    display: flex;
+    border: none;
+    width: 70%;
+    margin: 50px auto;
+    background-color: #E6E3DE;
+}
+
+body section .cocktails div img {
+    width: 500px;
+    height: 100%;
+    background-size: cover;
+}
+
+body section .cocktails .cocktails-text {
+    text-align: center;
+    margin: 100px auto;
+    font-size: 20px;
+}
+
+body section .cocktails div button {
+    background-color: #554938;
+    padding: 6px 10px;
+    margin: 24px;
+}
+
+body section .cocktails div button a {
+    text-decoration: none;
+    color: white;
+}
+
+body section .cookies {
+    margin: 50px auto auto;
+}
+
+body section .cookies .cookies-text {
+    margin: 140px auto;
+    font-size: 20px;
+}
+
+body section .cookies div img {
+    width: 500px;
+    background-size: cover;
+    height: 100%;
+}
+
+body section .first-btn {
+    margin: 34px 600px;
+}
+
+body section .first-btn a {
+    text-decoration: none;
+    color: #554938;
+    padding: 8px 14px;
+}
+
+body section .containers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body section .containers div {
+    background: rgb(255, 255, 255, 0.5);
+}
+
+body section .containers div img {
+    width: 200px;
+}
+
+body section .containers p {
+    text-align: center;
+    color: black;
+}
+
+body section .last-btn button{
+    background-color: #D84A32;
+    margin: 34px 600px;
+    padding: 8px 28px;
+}
+
+body section .last-btn button a {
+    text-decoration: none;
+    color: white;
+}
+
+body footer {
+    background: rgb(255, 255, 255, 0.5);
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+body footer div {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body footer div ul {
+    display: flex;
+}
+
+body footer div ul li {
+    list-style: none;
+    padding: 0 5px;
+    border-right: 1px solid #949594;
+}
+
+body footer div ul li:last-child {
+    border-right: none;
+}
+
+body footer div ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+body footer div ul:last-child {
+    border: none;
+}
